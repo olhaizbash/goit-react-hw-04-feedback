@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+button {
+  width: 100px;
+  height: 50px;
+  background-color: rgba(137, 43, 226, 0.518);
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(114, 2, 218, 0.656);
+}
